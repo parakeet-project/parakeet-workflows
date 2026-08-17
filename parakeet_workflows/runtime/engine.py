@@ -2,7 +2,7 @@ import asyncio
 import uuid
 from typing import TYPE_CHECKING, Any
 
-from parakeet_instrumentation import get_dispatcher
+from parakeet_index_instrumentation import get_dispatcher
 
 from parakeet_workflows.context import Context
 from parakeet_workflows.events import Event, StartEvent, StopEvent

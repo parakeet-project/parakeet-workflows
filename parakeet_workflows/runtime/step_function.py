@@ -10,8 +10,8 @@ from parakeet_index.utils.retry import (
     stop_after_attempt,
     wait_fixed,
 )
-from parakeet_instrumentation import get_dispatcher
-from parakeet_instrumentation.span import active_span_id
+from parakeet_index_instrumentation import get_dispatcher
+from parakeet_index_instrumentation.span import active_span_id
 
 from parakeet_workflows.context import Context
 from parakeet_workflows.events import Event
