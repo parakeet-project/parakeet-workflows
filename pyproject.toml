@@ -18,7 +18,7 @@ classifiers = [
 ]
 dependencies = [
     "pydantic>=2.13.4,<3.0.0",
-    "parakeet-instrumentation>=0.1.0,<0.2.0",
+    "parakeet-index-instrumentation>=0.1.0,<0.2.0",
     "parakeet-index-utils>=0.1.0,<0.2.0",
 ]
 
